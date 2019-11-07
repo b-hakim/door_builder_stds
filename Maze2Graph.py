@@ -26,7 +26,7 @@ class Maze2Graph:
 
         ## Student Code: Build Graph,
         # for each node,
-        #   find the reachable doors. Hint: use DFS on the given array
+        #   find the reachable doors. Hint: use BFS on the given array
         #   Add an edge between the current node and each reachable doors
         #
         #
@@ -35,7 +35,7 @@ class Maze2Graph:
 
         ## Output for Test Case: debugging_level.lvl
         # Comment/remove this line when you are done
-        return graph_nodes, [[2], [2, 3], [0, 1], [1]]
+        return graph_nodes, [[(2, 2)], [(2, 4), (3, 4)], [(0, 2), (1, 4)], [(1, 4)]]
         #########################################################################################
 
         return graph_nodes, graph_edges
